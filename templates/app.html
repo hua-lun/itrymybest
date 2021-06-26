@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>itrymybest</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"/>
+
+    <style>
+      .alert {
+        background: green;
+        padding: 1rem;
+        border-radius: 5px;
+        color: white;
+        margin: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>itrymybest</h1>
+      <br>
+      <h2>Words can hurt. <br> Think before sending that message. </h2>
+      <br>
+      <h3>
+        Use this tool to guide you into making a decision to send that text.
+      </h3>
+    </div>
+
+    <!-- Form -->
+    <div class="container">
+      <form action="/send" method="POST">
+        <label>Insert Text Here</label>
+          <label>
+              <textarea name="text" placeholder="text here"  rows="5" cols="50"></textarea>
+          </label>
+
+        <input type="submit" value="Submit" id="submit_btn" />
+
+        <a href="/">Refresh to enter new text.</a>
+
+        <br />
+        <div>
+          {{ sum }}
+        </div>
+      </form>
+    </div>
+
+    <div class="container">
+      <h3>Ultimately, you make the call.</h3>
+      <h3>Remember, behind every screen is a human.</h3>
+      <h3>So, let us all do a part to make the Internet a safer place!</h3>
+    </div>
+  </body>
+</html>
