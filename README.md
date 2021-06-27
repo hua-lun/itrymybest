@@ -3,6 +3,10 @@
 ![logo](/img/itrymybest_main.gif)
 ![app screenshot](/img/app_screenshot.png)
 
+## Live Website
+Visit: http://itrymybest.co/ (might be down - we are currently waiting for it to propagate worldwide)
+Alternatively, visit: http://172.104.190.129/ to access our web app!
+
 ## Start Flask app
 1. Activate virtual environment `venv`
 2. In terminal: `flask run`
