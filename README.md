@@ -1,5 +1,7 @@
 # itrymybest
 
+![logo](/img/itrymybest.gif)
+
 ## Start Flask app
 1. Activate virtual environment `venv`
 2. In terminal: `flask run`
