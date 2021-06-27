@@ -4,7 +4,7 @@
 ![app screenshot](/img/app_screenshot.png)
 
 ## Live Website
-Visit: http://itrymybest.co/ (might be down - we are currently waiting for it to propagate worldwide)
+Visit: http://www.itrymybest.co/
 
 Alternatively, visit: http://172.104.190.129/ to access our web app!
 
