@@ -1,6 +1,7 @@
 # itrymybest
 
 ![logo](/img/itrymybest_main.gif)
+![app screenshot](/img/app_screenshot.png)
 
 ## Start Flask app
 1. Activate virtual environment `venv`
